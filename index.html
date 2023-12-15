@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="Youtube-Logo.png" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="search.png" alt=""></button>
+        </div>
+        <img src="Icon.png" class="Icon">
+        <div class="user-options">
+            <img src="Group.png" class="icon" alt="">
+            <img src="Group1.png" class="icon" alt="">
+            <img src="Group2.png" class="icon" alt="">
+            <div class="user-dp">
+                <img src="User-Avatar.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="home-fill.png" alt="">home</a>
+        <a href="#" class="links"><img src="explore.png" alt="">explore</a>
+        <a href="#" class="links"><img src="subscriptions.png" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="library.png" alt="">library</a>
+        <a href="#" class="links"><img src="history.png" alt="">history</a>
+        <a href="#" class="links"><img src="yourVideos.png" alt="">your video</a>
+        <a href="#" class="links"><img src="watchLater.png" alt="">watch leater</a>
+        <a href="#" class="links"><img src="liked.png" alt="">like video</a>
+        <a href="#" class="links"><img src="arrowBottom.png" alt="">show more</a>
+
+        <hr class="seperator">
+
+
+    </div>
+
+    <!-- filters -->
+
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">web development</button>
+        <button class="filter-options">python</button>
+        <button class="filter-options">entertainment</button>
+        <button class="filter-options">marvel</button>
+        <button class="filter-options">javascript</button>
+        <button class="filter-options">artificial intelligence</button>
+        <button class="filter-options">machine learning</button>
+        <button class="filter-options">trending</button>
+
+    </div>
+
+    <!-- videos -->
+    <div id="video-container">
+        <div class="video">
+            <img src="" class="thumbnail" alt="">
+            <div class="content">
+                <img src="" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Frontend Web Development</h4>
+                    <p class="channel-name">James Gouse</p>
+                    <div class="views">
+                        <p class="video-views">15k views.</p>
+                        <p class="video-time">1 week ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
